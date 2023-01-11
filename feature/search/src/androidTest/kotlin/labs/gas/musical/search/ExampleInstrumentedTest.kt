@@ -1,4 +1,4 @@
-package labs.gas.musical.media
+package labs.gas.musical.search
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

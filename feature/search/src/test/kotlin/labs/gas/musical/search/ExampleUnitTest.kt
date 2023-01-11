@@ -1,4 +1,4 @@
-package labs.gas.musical.media
+package labs.gas.musical.search
 
 import org.junit.Test
 

@@ -7,7 +7,7 @@ import dagger.hilt.components.SingletonComponent
 import labs.gas.musical.search.data.SearchDataRepository
 import labs.gas.musical.search.data.remote.RemoteDataSource
 import labs.gas.musical.search.domain.SearchRepository
-import labs.gas.musical.search.domain.usecases.SearchMediaUseCase
+import labs.gas.musical.search.domain.usecases.SearchUseCase
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -18,7 +18,7 @@ class SearchDomainModule {
     }
 
     @Provides
-    fun provideSearchMediaUseCase(
+    fun provideSearchUseCase(
         searchRepository: SearchRepository,
-    ): SearchMediaUseCase = SearchMediaUseCase(searchRepository::search)
+    ): SearchUseCase = SearchUseCase(searchRepository::search)
 }

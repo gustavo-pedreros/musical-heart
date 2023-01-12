@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">MH</string>
+    <string name="title_media" translatable="false">Media</string>
+    <string name="title_favorites" translatable="false">Favorites</string>
+    <string name="hint_search_media" translatable="false">Search artist, song...</string>
+    <string name="hint_search_something" translatable="false">Search something...</string>
+    <string name="hint_favorites_empty" translatable="false">Nothing saved yet</string>
+    <string name="content_description_search_box" translatable="false">Type an artist name</string>
+    <string name="content_description_search_button" translatable="false">Search</string>
+</resources>
